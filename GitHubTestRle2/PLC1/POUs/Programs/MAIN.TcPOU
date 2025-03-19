@@ -9,7 +9,7 @@ END_VAR
       <ST><![CDATA[GitHub1();
 
 IF GitHub1.Testi101 THEN
-	GitHub1.Testi102 := GitHub1.Testi102 + 2;
+	GitHub1.Testi100 := GitHub1.Testi100 + 1;
 END_IF]]></ST>
     </Implementation>
   </POU>

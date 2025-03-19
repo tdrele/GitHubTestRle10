@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="GitHub1" Id="{4130db12-1102-4508-b046-e234a13b982b}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM GitHub1
+VAR
+	Testi100	: INT;
+	Testi101	: BOOL;
+	
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF Testi101 THEN
+	Testi100 := Testi100 + 1;
+END_IF]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

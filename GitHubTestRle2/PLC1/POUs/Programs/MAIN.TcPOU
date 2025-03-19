@@ -6,7 +6,11 @@ VAR
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[]]></ST>
+      <ST><![CDATA[GitHub1();
+
+IF GitHub1.Testi101 THEN
+	GitHub1.Testi102 := GitHub1.Testi102 + 1;
+END_IF]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
